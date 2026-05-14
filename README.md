@@ -49,8 +49,10 @@ npx create-chainhook
 
 ✓ Generated chainhook.json
 Two minutes instead of two hours.
+```
 
 3. TypeScript SDK
+```
 Type-safe event handlers with autocomplete:
 
 import { onSBTCDeposit } from 'hookkit'
@@ -59,7 +61,11 @@ onSBTCDeposit((event) => {
   // event.amount, event.sender, event.txId — all typed
   console.log(`Received ${event.amount} sBTC from ${event.sender}`)
 })
+```
+
+
 4. Local Testing (Future)
+```
 Replay historical blocks against your predicate to test before deploying.
 
 Why This Matters
@@ -218,3 +224,4 @@ Email: akinsanyadaniel665@gmail.com
 GitHub: This repo (will expand during program)
 
 This project is in the concept stage. The actual SDK will be built during the Validate program based on developer feedback and validation results.
+```
